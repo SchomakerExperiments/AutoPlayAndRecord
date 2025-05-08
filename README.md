@@ -1,5 +1,5 @@
 # AutoPlayAndRecord
-The Unity scripts allow you to read in logfiles with X, Y, Z coordinates of (previous) exploration/navigation behavior, to replay that behavior and visualize what people saw, and to record this with Open Broadcaster Studio (OBS). 
+These #C scripts allow you to read in logfiles with X, Y, Z coordinates of (previous) exploration/navigation behavior, to replay that behavior and visualize what people saw in Unity, and to record this with Open Broadcaster Studio (OBS). 
 
 1. Prepare your logfiles in the following format: [time, X, Y, X], including these headers.
 2. Specify the path for the logfiles in LogFilePlayer.cs in logFolderPath.
